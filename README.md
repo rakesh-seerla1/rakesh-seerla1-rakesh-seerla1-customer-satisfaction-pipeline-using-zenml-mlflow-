@@ -221,8 +221,9 @@ Run the training pipeline using:
 python run_pipeline.py
 ```
 
+![Screenshot 2025-02-11 224101](https://github.com/user-attachments/assets/0accfc7d-2916-46de-82c8-42053aa77ca8)
 
-![Uploading Screenshot 2025-02-11 224101.png…]()
+
 
 
 <<<<<<< HEAD
