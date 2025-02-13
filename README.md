@@ -178,13 +178,35 @@ zenml stack register mlflow_stack -a default -o default -d mlflow -e mlflow_trac
 ## 📂 Project Structure
 
 ```
-project-1/
-│-- src/
-│   ├── steps/            # Step implementations (data ingestion, preprocessing, training, etc.)
-│   ├── pipelines/        # Training pipeline definitions
-│   ├── utils/            # Utility functions (helper scripts)
-│-- run_pipeline.py       # Script to execute the pipeline
-│-- README.md             # Project documentation
+PROJECT-1/
+├── pipelines/
+│   ├── __pycache__/
+│   ├── data/
+│   │   └── olist_customers_dataset.csv
+│   ├── deployement_pipeline.py
+│   └── training_pipeline.py
+├── src/
+│   ├── __pycache__/
+│   ├── utils/
+│   │   ├── __pycache__/
+│   │   ├── artifacts_store.py
+│   │   ├── __init__.py
+│   │   ├── data_cleaning.py
+│   │   ├── data_config.py
+│   │   ├── evaluation.py
+│   │   └── model_dev.py
+├── steps/
+│   ├── clean_data.py
+│   ├── config.py
+│   ├── evaluation.py
+│   ├── ingest_data.py
+│   ├── model_train.py
+│   └── __init__.py
+├── .gitignore
+├── requirements.txt
+├── run_deployement.py
+└── run_pipeline.py
+
 ```
 
 ---
