@@ -221,6 +221,10 @@ Run the training pipeline using:
 python run_pipeline.py
 ```
 
+
+![Uploading Screenshot 2025-02-11 224101.png…]()
+
+
 <<<<<<< HEAD
 Expected output:
 
