@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 # Customer Satisfaction Prediction - End-to-End Pipelines with ZenML & MLflow
 
+![pipeline zenml and mlflow](https://github.com/user-attachments/assets/4ed70ce3-183c-43c3-b118-08b6238379fc)
+
+
 ## 📌 Project Overview
 This project is focused on building and deploying an end-to-end machine learning pipeline for **Customer Satisfaction Prediction** using **ZenML** and **MLflow**. It covers:
 
