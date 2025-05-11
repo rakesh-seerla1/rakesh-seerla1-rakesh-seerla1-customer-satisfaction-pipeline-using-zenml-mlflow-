@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Customer Satisfaction Prediction - End-to-End Pipelines with ZenML & MLflow
 
 ![pipeline zenml and mlflow](https://github.com/user-attachments/assets/4ed70ce3-183c-43c3-b118-08b6238379fc)
@@ -157,13 +156,12 @@ Before running MLflow with ZenML, ensure you have:
 - A properly configured ZenML stack
 
 ## 🔧 Step 1: Install & Integrate MLflow with ZenML
->>>>>>> d723c8c74 (Initial project upload)
 
 ```bash
 zenml integration install mlflow -y
 ```
 
-<<<<<<< HEAD
+
 ### **Register and Configure ZenML Stack**
 =======
 ## 🛠 Step 2: Register MLflow Components in ZenML
