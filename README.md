@@ -276,8 +276,6 @@ Then, open your browser and go to:
 ```
 http://127.0.0.1:5000
 ```
-
-<<<<<<< HEAD
 ---
 
 ## 🛠 ZenML Server Operations
@@ -334,9 +332,4 @@ class MyModel(BaseModel):
 ## 🎯 Conclusion
 
 You’re now all set up to track experiments with ZenML and MLflow! 🚀🔥
-
-
-
-
->>>>>>> d723c8c74 (Initial project upload)
 
